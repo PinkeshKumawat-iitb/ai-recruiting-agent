@@ -1,0 +1,40 @@
+node_modules
+.next
+out
+build
+.DS_Store
+*.pem
+.env*
+!.env.example
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+.pnpm-store/
+*.tsbuildinfo
+
+backend/.venv/
+backend/__pycache__/
+backend/app/**/__pycache__/
+*.py[cod]
+# Secret and local environment files, at any directory depth
+**/.env
+**/.env.*
+!**/.env.example
+# Local credentials and key material
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.secret
+credentials*.json
+**/credentials*.json
+**/*service-account*.json
+**/secrets/
+**/.secrets/
+# Python environments and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+.coverage
